@@ -1,0 +1,28 @@
+/* selector {
+  Property: value;
+
+  Cascading Style Sheets - always takes the selector at the end - the last one that matches
+  Good resource: https://css-tricks.com/almanac
+  paletton.com
+} */
+
+body {
+  background-image: url(https://wallpapers.party/media/2018/10/dark-amoled-41.jpg);
+  background-size: cover;
+}
+
+h2 {
+  color: #58BFBF;
+  text-align: center;
+  border: 5px dashed #006565;
+  cursor: pointer;
+}
+
+p {
+  color: #58BFBF;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
