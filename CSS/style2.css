@@ -1,3 +1,28 @@
 h2 {
   color: blue;
 }
+
+.boxmodel {
+  border: 5px solid red;
+  display: inline-block;
+  padding: 5px 20px 5px 20px;
+  /* top Right Bottom Left */
+  margin: 0px 20px;
+  width: 33px;
+  height: 55px;
+}
+
+p {
+  font-size: 20px;
+}
+
+span.em {
+  font-size: 2em;
+  /* 2 times the containing element */
+}
+
+span.rem {
+  font-size: 2rem;
+  /* 2 times the root element */
+  
+}

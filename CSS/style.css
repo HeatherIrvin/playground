@@ -4,7 +4,23 @@
   Cascading Style Sheets - always takes the selector at the end - the last one that matches
   Good resource: https://css-tricks.com/almanac
   paletton.com
+
+  element, element = each element
+  element1 element2 = element2 inside element1
+  element1 > element2 = elements2 that have parent of element1
+  element1 + element2 = element2 immediatly after element1
+  :hover = only when mouse hover style change
+  :last-child = only apply style to last element
+  :first-child = reverse of above
+  !important = not recomeneded = overrides any rules
+  
+  when linking from outside resources like google fonts, make the load slightly slower
 } */
+
+* {
+  text-align: right;
+  color: white;
+}
 
 body {
   background-image: url(https://wallpapers.party/media/2018/10/dark-amoled-41.jpg);
@@ -18,11 +34,58 @@ h2 {
   cursor: pointer;
 }
 
+img {
+  float: left;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+
 p {
   color: #58BFBF;
+  
 }
 
 li {
   list-style: none;
   display: inline-block;
+}
+
+.webtext {
+  border: 5px dashed green;
+}
+
+#div1 {
+  background-color: rgba(0, 0, 255, 0.2);
+  
+}
+
+#div2 {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.p1 {
+  text-decoration: underline;
+}
+
+.p2 {
+  text-decoration: line-through;
+}
+
+.p3 {
+  text-transform: uppercase;
+}
+
+.p4 {
+  line-height: 50px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.p5 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 150%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
