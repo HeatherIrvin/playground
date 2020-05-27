@@ -74,6 +74,24 @@ strong {
   color: white;
 }
 
+.box p {
+  text-decoration: underline;
+}
+
+/*FOOTER*/
+.footer {
+  color: white;
+  background-color: black;
+  padding: 5px;
+  height: 2vh;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
